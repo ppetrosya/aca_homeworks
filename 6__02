@@ -1,0 +1,7 @@
+const a = 7;
+const b = 52;
+const c = -23;
+const d = 9;
+const k = -81;
+const j = (a + b + c + d + k) / 5;
+console.log(j);

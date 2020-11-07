@@ -1,0 +1,4 @@
+let a = 70;
+if (a % 2 === 0 ){
+    a = "even"
+}console.log(a)

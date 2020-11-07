@@ -1,0 +1,6 @@
+let a = 35;
+if (a % 2 !== 0 ){
+    a = "odd"
+} else {
+    a = "even"
+} console.log(a);

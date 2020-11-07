@@ -1,0 +1,4 @@
+const angelOne = 30;
+const anegelTwo = 30;
+let angelThree = 180 - (angelOne + anegelTwo);
+console.log(angelThree);

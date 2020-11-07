@@ -1,0 +1,16 @@
+const num = "367";
+let newNumber = "";
+if( +num[2] !== 0 ){
+    for (k = 0; k < num.length; k++) {
+        if (k === num.length-1) {
+            newNumber = num[k] + newNumber
+        }  else {
+            newNumber += num[k]
+        }     
+    }
+
+    console.log(newNumber)
+} else {
+    console.log(num)
+}
+

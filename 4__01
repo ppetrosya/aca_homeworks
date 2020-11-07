@@ -1,0 +1,5 @@
+let n =  3;
+let c = n + n;
+let b = n + n + n;
+let a = n + "" + c + "" + b;
+console.log(a);

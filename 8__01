@@ -1,0 +1,18 @@
+const age = 8;
+switch ( true ) {
+    case (age >= 1 && age <= 12):
+        console.log(`is baby`);
+        break;
+    case ( age  >= 1 * 12 && age <= 2 * 12):
+        console.log(`is toddler`);
+        break;
+    case(age >= 3 * 12 && age <= 12 * 12):
+        console.log(`is child`);
+        break;
+    case ( age >= 13 * 12 && age <= 17 * 12) :
+        console.log(`is teenager`);
+        break;
+    case( age >= 18 * 12 ):
+        console.log(`acult`);
+        break;
+}

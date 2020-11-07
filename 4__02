@@ -1,0 +1,5 @@
+const a = 17;
+const b = a + a;
+const d = a + a + a;
+const c = a + '' +  b  + "" + d;
+console.log(c)

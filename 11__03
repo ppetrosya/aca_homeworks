@@ -1,0 +1,26 @@
+const a = 4;
+const b = 19;
+const c = -2;
+let d;
+if ( a === 0 || b === 0 || c === 0){
+    d = "unsigned";
+} else if( a > 0 && b > 0 && c > 0) {
+    d = "+";
+    } else if(a < 0 && b < 0 && c < 0) {
+        d = "-"
+        } else if (a < 0 && b > 0 && c > 0){
+            d = "-"
+            }   else if (a > 0 && b < 0 && c > 0){
+                d = "-"
+                }   else if (a > 0 && b > 0 && c < 0){
+                    d = "-"
+                    } else if (a < 0 && b < 0 && c > 0){
+                        d = "+"
+                        } else if (a < 0 && b > 0 && c < 0){
+                            d = "+"
+                            } else if(a > 0 && b < 0 && c < 0){
+                                d = "+"
+                                } else if (a < 0 && b > 0 && c < 0){
+                                    d = "+"
+                                    }
+                                        console.log(d)
